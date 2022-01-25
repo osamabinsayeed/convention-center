@@ -17,7 +17,7 @@
 
 <body class="bg-light">
     <!-- header -->
-    <header class="bg-white p-0 mb-5">
+    <header class="bg-white p-0 mb-5 container-fluid">
         <div class="d-flex justify-content-around p-4">
             <h1>Royal Convention Center</h1>
             <nav class="navbar navbar-expand-lg navbar-expand-md navbar-light ">
@@ -92,12 +92,18 @@
 
     </header>
     <!-- toast -->
-    <div class="toast show t-f align-items-center" role="alert" aria-live="assertive" aria-atomic="true">
-        <div class="d-flex">
-            <div class="toast-body">
-                <i class="fas fa-gift"></i>20% off on next booking
+    <div class="container">
+        <div class="row">
+            <div class="toast show t-f align-items-center col-lg-6 col-md-6 col-sm-6 cols-6" role="alert"
+                aria-live="assertive" aria-atomic="true">
+                <div class="d-flex">
+                    <div class="toast-body">
+                        <i class="fas fa-gift"></i>20% off on next booking
+                    </div>
+                    <button type="button" class="btn-close me-2 m-auto" data-bs-dismiss="toast"
+                        aria-label="Close"></button>
+                </div>
             </div>
-            <button type="button" class="btn-close me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
         </div>
     </div>
 
@@ -105,7 +111,7 @@
 
     <section class="container d-flex justify-content-around">
         <div class="row">
-            <div class="col-lg-6 col-md-12">
+            <div class="col-lg-6 col-md-12 col-sm-12 col-12">
                 <h1>
                     The Best Convention Center In The Town
                 </h1>
@@ -115,8 +121,10 @@
                     decorations are hert whelming. We can ensure a top class service for you.
                 </h5>
             </div>
-            <div class="col-lg-6 col-md-12 d-flex justify-content-center mt-3">
-                <img src="images/convention-outside.png" alt="">
+            <div class="col-lg-6 col-md-12 col-sm-12 col-12 d-flex justify-content-center mt-3 ">
+                <div>
+                    <img src="images/convention-outside.png" alt="" class="img-fluid">
+                </div>
             </div>
         </div>
     </section>
@@ -126,7 +134,7 @@
         <h1>Our Packages</h1>
     </div>
     <section class="container">
-        <div class="row row-cols-1  row-cols-md-2 row-cols-lg-4 gx-5 m-0 p-0">
+        <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-4 gx-5 m-0 p-0">
             <div class="col mt-3">
                 <div class="card w-100 h-100 " style="width: 18rem;">
                     <div class="card-body p-0 gx-0  bg-light d-flex flex-column justify-content-center rounded">
@@ -369,11 +377,11 @@
             <h1>Frequently Asked Questions</h1>
         </div>
         <div class="row">
-            <div class="col-lg-6 col-md-12 d-flex justify-content-center mb-3">
+            <div class="col-lg-6 col-md-12 col-sm-12 col-12 d-flex justify-content-center mb-3">
                 <img src="images/people.png" alt="" class="img-fluid">
             </div>
 
-            <div class="d-flex flex-column col-lg-6 col-md-12">
+            <div class="d-flex flex-column col-lg-6 col-md-12 col-sm-12 col-12">
                 <div class="align-items-center">
                     <div class="border border-secondary d-fluid m-2">
                         <p>
@@ -471,7 +479,7 @@
 
             <div class=" text-light d-flex justify-content-around align-items-center row">
 
-                <div class="col-lg-3 col-md-12">
+                <div class="col-lg-3 col-md-12 col-sm-12 col-12">
                     <div class="store">
                         <div>
                             <h5 class="mb-1">Get Our Apps From</h5>
@@ -493,7 +501,7 @@
                         </div>
                     </div>
                 </div>
-                <div class=" mt-5 col-lg-6 col-md-12">
+                <div class=" mt-5 col-lg-6 col-md-12 col-sm-12 col-12">
                     <footer>
                         <small>© 2020 bike. All rights reserved</small>
                     </footer>
