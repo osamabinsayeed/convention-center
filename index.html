@@ -9,6 +9,8 @@
     <!-- bootstrap css link -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- -custom-ccs-link -->
+    <link rel="stylesheet" href="style.css">
     <!-- font awsome -->
     <script src="https://kit.fontawesome.com/70ad9a77b0.js" crossorigin="anonymous"></script>
 </head>
@@ -89,19 +91,27 @@
 
 
     </header>
+    <!-- toast -->
+    <div class="toast show t-f align-items-center" role="alert" aria-live="assertive" aria-atomic="true">
+        <div class="d-flex">
+            <div class="toast-body">
+                <i class="fas fa-gift"></i>20% off on next booking
+            </div>
+            <button type="button" class="btn-close me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+        </div>
+    </div>
 
     <!-- first section -->
 
-    <section class="container d-flex">
+    <section class="container d-flex justify-content-around">
         <div>
             <h1>
                 The Best Convention Center In The Town
             </h1>
-            <h5>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi dolores autem ex iste a quas!
-                Dolorum, nulla fuga doloremque quisquam magnam recusandae distinctio sed odit aspernatur alias
-                asperiores atque voluptate voluptas vero accusamus rerum ullam aliquam optio, maxime, iste quis quam
-                cum? Dignissimos error ab nihil in dolore accusantium doloremque.
+            <h5 class="w-100">
+                Royal Convention
+                center is one of the Town's 1st largest luxurious Convention Center. Lovely place and awesome
+                decorations are hert whelming. We can ensure a top class service for you.
             </h5>
         </div>
         <div>
@@ -454,9 +464,28 @@
     </section>
     <!-- fourth-section -->
 
-    <section>
-        <div class="last-part">
-            kjhgfdfghj
+    <section class="mt-5">
+        <div class="last-part text-light d-flex justify-content-around align align-items-center">
+            <div>
+                <footer>
+                    <small>© 2020 bike. All rights reserved</small>
+                </footer>
+            </div>
+            <div class="store">
+                <h5 class="mb-1">Get Our Apps From</h5>
+                <div
+                    class="border border-secondary d-flex align-items-center justify-content-center bg-dark rounded pt-2">
+                    <a href="https://www.apple.com/store">
+                        <p><img src="images/apple.png" alt=""> apple store</p>
+                    </a>
+                </div>
+                <div
+                    class="border border-secondary mt-3 d-flex align-items-center justify-content-center bg-dark rounded pt-2">
+                    <a href="https://play.google.com/store/apps">
+                        <p><img src="images/google-play.png" alt=""> playstore</p>
+                    </a>
+                </div>
+            </div>
         </div>
     </section>
 

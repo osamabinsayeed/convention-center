@@ -1,5 +1,10 @@
+
 .last-part{
-    height: 400px;
+    height: 300px;
     width: 100%;
-    background-color: black;
+    background-color: rgb(32, 29, 29);
+}
+
+.store a{
+text-decoration: none;
 }
